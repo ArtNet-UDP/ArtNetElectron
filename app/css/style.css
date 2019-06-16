@@ -1,0 +1,95 @@
+body {
+    background-color: #333333;
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    overflow-y: hidden;
+    width: 480px;
+    height: 320px;
+    -webkit-app-region: drag;
+}
+
+.row {
+    min-height: 2rem;
+    display: flex;
+}
+
+.row *{
+    margin: auto;
+}
+
+.wrapper {
+    padding: .5rem;
+}
+
+.menu {
+    height: 2rem;
+    display: flex;
+}
+
+.menu img {
+    height: 18px;
+    margin: auto 0 auto 0;
+}
+
+.menu h2 {
+    margin: auto 0 auto 1rem;
+}
+
+.menu #time {
+    margin: auto 0 auto auto;
+}
+
+.indicator{
+    width: 2rem;
+    height: 2rem;
+    margin: .5rem;
+}
+
+.status {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+}
+
+.status h2 {
+    min-width: 8rem;
+}
+
+#packetCounter {
+    max-width: 30%;
+    width: 30%;
+    height: max-content;
+    margin-left: 0 !important;
+}
+
+#packetCounter div {
+    display: flex;
+    flex-direction: row;
+    margin: .5rem;
+}
+
+#packetCounter div h2{
+    min-width: 5rem;
+    max-width: 7rem;
+}
+
+#packetCounter div span {
+    min-width: -webkit-fill-available;
+}
+
+#skipped {
+    display: flex;
+    flex-direction: row;
+    max-width: 30%;
+}
+
+#skipped span {
+    margin-left: .5rem;
+}
+
+span {
+    margin-left: 1rem;
+    font-size: 1.75em;
+}

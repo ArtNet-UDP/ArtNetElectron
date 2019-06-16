@@ -1,0 +1,42 @@
+/* Component */
+vr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    height: inherit;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.right {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.left {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.green{
+    background-color: #4cd137;
+    border: 0.1rem solid #44bd32;
+}
+
+
+.yellow{
+    background-color: #fbc531;
+    border: 0.1rem solid #e1b12c;
+}
+
+
+.red{
+    background-color: #e84118;
+    border: 0.1rem solid #c23616;
+}
