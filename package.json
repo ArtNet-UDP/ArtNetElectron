@@ -18,7 +18,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-ws": "^4.0.0",
-    "systeminformation": "^4.9.0"
+    "systeminformation": "^4.27.11"
   },
   "repository": {
     "type" : "git",
